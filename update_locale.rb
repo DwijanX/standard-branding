@@ -97,10 +97,11 @@ Dir.glob("locales/**/*.po").each do |file|
   `msgmerge --update --no-wrap #{file} locales/branding.pot`
 end
 
-# .mo file compilation is now handled in
-# https://translate.quickpay.net/projects/quickpay/standard-branding
-# Dir.glob("./locales/*/*/") do |locale_dir|
-#   po_file = "#{locale_dir}branding.po"
-#   mo_file = "#{locale_dir}branding.mo"
-#   `msgfmt #{po_file} -o #{mo_file}`
-# end
+# .mo file compilation is was handled in
+# https://translate.quickpay.net/projects/quickpay/standard-branding,
+# but the site is not reachable at the moment.
+Dir.glob("./locales/*/*/") do |locale_dir|
+  po_file = "#{locale_dir}branding.po"
+  mo_file = "#{locale_dir}branding.mo"
+  `msgfmt #{po_file} -o #{mo_file}`
+end

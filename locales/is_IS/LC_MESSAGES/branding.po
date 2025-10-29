@@ -15,119 +15,248 @@ msgstr ""
 "X-Loco-Source-Locale: is_IS\n"
 "X-Loco-Parser: loco_parse_po\n"
 
-#: templates/cancelled.liquid:3
-msgid "You have cancelled the payment"
-msgstr "Þú hefur hætt við greiðsluna"
+#: templates/waiting.liquid:5
+msgid "Open Swish App"
+msgstr ""
 
-#: templates/deadline.liquid:4
-msgid "Order expired"
-msgstr "Pöntun útrunnin"
+#: templates/waiting.liquid:8
+msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
+msgstr ""
 
-#: templates/deadline.liquid:7
-msgid "You did not finish the purchase within the time frame."
-msgstr "Þú laukst ekki við kaupin innan tímarammans."
-
-#: templates/deadline.liquid:9
-msgid "Click here to continue"
-msgstr "Smelltu hér til að halda áfram"
-
-#: templates/error.liquid:6
-msgid "The order is already paid."
-msgstr "Pöntunin er þegar greidd."
-
-#: templates/error.liquid:8
-msgid "Continue to the shop"
-msgstr "Halda áfram í búðina"
-
-#: templates/error.liquid:10
-msgid "An unknown error happened."
-msgstr "Óþekkt villa kom upp."
-
-#: templates/error.liquid:10 templates/error.liquid:14
-#: templates/form/error.liquid:11
-msgid "Please try again."
-msgstr "Vinsamlegast reyndu aftur."
-
-#: templates/error.liquid:12
-msgid "Unable to complete payment"
-msgstr "Ekki tókst að ljúka greiðslu"
-
-#: templates/error.liquid:14 templates/error.liquid:16
-msgid "3D Secure authorization failed."
-msgstr "3D Secure auðkenning mistókst."
-
-#: templates/error.liquid:16 templates/error.liquid:18
-msgid "Please try again or select another payment method."
-msgstr "Vinsamlegast reyndu aftur eða veldu aðra greiðsluaðferð."
-
-#: templates/error.liquid:18
-msgid "3D Secure enrollment failed."
-msgstr "3D Secure skráning mistókst."
-
-#: templates/error.liquid:20
-msgid "The payment details have changed since you initiated the payment."
-msgstr "Greiðsluupplýsingarnar hafa breyst frá því að þú byrjaðir á greiðslunni."
-
-#: templates/error.liquid:22
-msgid "Click here to start over"
-msgstr "Smelltu hér til að byrja aftur"
-
-#: templates/error.liquid:33
-msgid "Try again"
-msgstr "Reyndu aftur"
-
-#: templates/footer.liquid:137
+#: templates/waiting.liquid:9
 #, fuzzy
-msgid "Secure payment with"
-msgstr "Aðrir greiðslumátar"
+msgid "You have 3 minutes to complete the payment"
+msgstr "Þú hefur lokið greiðslunni"
 
-#: templates/form/3ds_auth.liquid:4
+#: templates/waiting.liquid:11
+msgid "Waiting for authorization"
+msgstr ""
+
+#: templates/waiting.liquid:17
+msgid "Please wait..."
+msgstr "Vinsamlegast bíðið..."
+
+#: templates/waiting.liquid:20
 #, fuzzy
-msgid "Running 3-D Secure checks. Please wait..."
-msgstr "Byrjun 3D Secure greiðslu. Vinsamlegast bíðið..."
+msgid "The process may take some time."
+msgstr "Ferlið getur tekið allt að 5 mínútur."
+
+#: templates/waiting.liquid:21
+msgid "Click here if processing takes a long time"
+msgstr "Smelltu hér ef vinnsla tekur langan tíma"
 
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
 msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
 
-#: templates/form/anydaysplit.liquid:11 templates/form/bancontact.liquid:11
-#: templates/form/blik.liquid:11 templates/form/klarnapayments.liquid:8
-#: templates/form/mobilepay_online.liquid:7
+#: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
+#: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
+#: templates/form/resurs.liquid:21 templates/form/sofort_ideal.liquid:12
+#: templates/form/paysafecard.liquid:11 templates/form/bancontact.liquid:11
+#: templates/form/wechatpay.liquid:11 templates/form/trustly.liquid:8
+#: templates/form/sofortppro.liquid:11 templates/form/vipps.liquid:11
+#: templates/form/vippspsp.liquid:7 templates/form/paypal.liquid:11
+#: templates/form/blik.liquid:11
 #: templates/form/mobilepay_subscriptions.liquid:11
-#: templates/form/paypal.liquid:11 templates/form/paypalpayments.liquid:11
-#: templates/form/paysafecard.liquid:11 templates/form/przelewy24.liquid:12
-#: templates/form/resurs.liquid:21 templates/form/sofort.liquid:8
-#: templates/form/sofort_ideal.liquid:12 templates/form/sofortppro.liquid:11
-#: templates/form/trustly.liquid:8 templates/form/trustly_ideal.liquid:8
-#: templates/form/viabill.liquid:11 templates/form/vipps.liquid:11
-#: templates/form/vippspsp.liquid:7 templates/form/wechatpay.liquid:11
+#: templates/form/mobilepay_online.liquid:7
+#: templates/form/trustly_ideal.liquid:8 templates/form/viabill.liquid:11
+#: templates/form/sofort.liquid:8 templates/form/klarnapayments.liquid:8
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Þegar þú hefur klárað, verður þér vísað aftur til kvittuninnar þinnar."
 
-#: templates/form/anydaysplit.liquid:12 templates/form/bancontact.liquid:12
-#: templates/form/blik.liquid:12 templates/form/klarnapayments.liquid:9
-#: templates/form/mobilepay_online.liquid:8
+#: templates/form/anydaysplit.liquid:12 templates/form/vmp_epayment.liquid:9
+#: templates/form/paypalpayments.liquid:12 templates/form/przelewy24.liquid:13
+#: templates/form/resurs.liquid:22 templates/form/sofort_ideal.liquid:13
+#: templates/form/paysafecard.liquid:12 templates/form/bancontact.liquid:12
+#: templates/form/wechatpay.liquid:12 templates/form/trustly.liquid:9
+#: templates/form/sofortppro.liquid:12 templates/form/vipps.liquid:12
+#: templates/form/vippspsp.liquid:8 templates/form/paypal.liquid:12
+#: templates/form/blik.liquid:12
 #: templates/form/mobilepay_subscriptions.liquid:12
-#: templates/form/paypal.liquid:12 templates/form/paypalpayments.liquid:12
-#: templates/form/paysafecard.liquid:12 templates/form/przelewy24.liquid:13
-#: templates/form/resurs.liquid:22 templates/form/sofort.liquid:9
-#: templates/form/sofort_ideal.liquid:13 templates/form/sofortppro.liquid:12
-#: templates/form/trustly.liquid:9 templates/form/trustly_ideal.liquid:9
-#: templates/form/viabill.liquid:12 templates/form/vipps.liquid:12
-#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:12
+#: templates/form/mobilepay_online.liquid:8
+#: templates/form/trustly_ideal.liquid:9 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:9
 msgid "Proceed to payment"
 msgstr "Halda áfram til greiðslu"
+
+#: templates/form/vmp_epayment.liquid:7
+#, fuzzy
+msgid "When you click the button below, the Vipps-MobilePay window will open"
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/paypalpayments.liquid:10
+#, fuzzy
+msgid "When you click the button below, the PayPalPayments payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
+
+#: templates/form/przelewy24.liquid:11
+#, fuzzy
+msgid "When you click the button below, the Przelewy24 payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
+
+#: templates/form/3ds_auth.liquid:4
+#, fuzzy
+msgid "Running 3-D Secure checks. Please wait..."
+msgstr "Byrjun 3D Secure greiðslu. Vinsamlegast bíðið..."
+
+#: templates/form/resurs.liquid:20
+#, fuzzy
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
+
+#: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
+#, fuzzy
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/sofort_ideal.liquid:23
+msgid "Bank"
+msgstr ""
+
+#: templates/form/sofort_ideal.liquid:30
+#: templates/form/unzer_pay_later_direct_debit.liquid:63
+#: templates/form/trustly.liquid:27
+#: templates/form/unzer_pay_later_invoice.liquid:38
+#: templates/form/trustly_ideal.liquid:27 templates/form/swish.liquid:20
+msgid "Proceed"
+msgstr "Halda áfram"
+
+#: templates/form/paysafecard.liquid:10
+#, fuzzy
+msgid "When you click the button below, the paysafecard payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
 
 #: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
 msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
 
+#: templates/form/unzer_pay_later_direct_debit.liquid:5
+#: templates/form/unzer_pay_later_invoice.liquid:5
+msgid "This field is required."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:14
+#: templates/form/unzer_pay_later_invoice.liquid:14
+msgid "Email Address"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:18
+#: templates/form/trustly.liquid:20
+#: templates/form/unzer_pay_later_invoice.liquid:18
+#: templates/form/trustly_ideal.liquid:20
+msgid "First name"
+msgstr "Fornafn"
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:22
+#: templates/form/trustly.liquid:24
+#: templates/form/unzer_pay_later_invoice.liquid:22
+#: templates/form/trustly_ideal.liquid:24
+msgid "Last name"
+msgstr "Eftirnafn"
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:26
+#: templates/form/unzer_pay_later_invoice.liquid:26
+msgid "Date of Birth"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:29
+#: templates/form/unzer_pay_later_invoice.liquid:29
+msgid "The age must be at least 18"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:33
+msgid "Bank account holder"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:44
+msgid "Invalid name format. Only letters are accepted."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:47
+msgid "Enter full name (e.g. John Smith)"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:51
+msgid "IBAN"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:54
+msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
+msgstr ""
+
+#: templates/form/wechatpay.liquid:10
+#, fuzzy
+msgid "When you click the button below, the WeChatPay payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/trustly.liquid:7
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
+
+#: templates/form/sofortppro.liquid:10
+#, fuzzy
+msgid "When you click the button below, the SofortPPRO payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast Sofort greiðsluglugginn."
+
+#: templates/form/vipps.liquid:10
+#, fuzzy
+msgid "When you click the button below, the Vipps payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/vippspsp.liquid:6
+#, fuzzy
+msgid "When you click the button below, the Vipps PSP window will open"
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/paypal.liquid:10
+msgid "When you click the button below, the PayPal payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
+
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast greiðslugluggi MobilePay."
+
+#: templates/form/mobilepay_online.liquid:6
+#, fuzzy
+msgid "When you click the button below, the MobilePay Online window will open"
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast greiðslugluggi MobilePay."
+
+#: templates/form/swish.liquid:8
+msgid "Mobile number"
+msgstr "Farsímanúmer"
+
+#: templates/form/viabill.liquid:10
+msgid "When you click the button below, the ViaBill payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
+
+#: templates/form/sofort.liquid:7
+msgid "When you click the button below, the Sofort payment window will open."
+msgstr "Þegar þú smellir á hnappinn hér að neðan opnast Sofort greiðsluglugginn."
+
+#: templates/form/error.liquid:7
+msgid "An error happened."
+msgstr "Villa kom upp."
+
+#: templates/form/error.liquid:7 templates/error.liquid:10
+#: templates/error.liquid:14
+msgid "Please try again."
+msgstr "Vinsamlegast reyndu aftur."
+
+#: templates/form/error.liquid:9
+msgid "You tried to make a live payment on a test transaction."
+msgstr "Þú reyndir að framkvæma raungreiðslu á prófunarfærslu."
+
+#: templates/form/error.liquid:11
+msgid "You tried to make a test payment on a live transaction."
+msgstr "Þú reyndir að framkvæma prófunargreiðslu á raunfærslu."
 
 #: templates/form/card.liquid:5
 msgid "Pay with card"
@@ -194,177 +323,14 @@ msgstr "Greiðslugjald"
 msgid "Fill in card number"
 msgstr "Fylltu inn kortanúmer"
 
-#: templates/form/error.liquid:11
-msgid "An error happened."
-msgstr "Villa kom upp."
-
-#: templates/form/error.liquid:13
-msgid "You tried to make a live payment on a test transaction."
-msgstr "Þú reyndir að framkvæma raungreiðslu á prófunarfærslu."
-
-#: templates/form/error.liquid:15
-msgid "You tried to make a test payment on a live transaction."
-msgstr "Þú reyndir að framkvæma prófunargreiðslu á raunfærslu."
-
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
 msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
 
-#: templates/form/mobilepay_online.liquid:6
-#, fuzzy
-msgid "When you click the button below, the MobilePay Online window will open"
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast greiðslugluggi MobilePay."
-
-#: templates/form/mobilepay_subscriptions.liquid:10
-#, fuzzy
-msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast greiðslugluggi MobilePay."
-
-#: templates/form/paypal.liquid:10
-msgid "When you click the button below, the PayPal payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
-
-#: templates/form/paypalpayments.liquid:10
-#, fuzzy
-msgid "When you click the button below, the PayPalPayments payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
-
-#: templates/form/paysafecard.liquid:10
-#, fuzzy
-msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast PayPal greiðslu glugginn."
-
-#: templates/form/przelewy24.liquid:11
-#, fuzzy
-msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
-
-#: templates/form/resurs.liquid:20
-#, fuzzy
-msgid "When you click the button below, the Resurs payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
-
-#: templates/form/sofort.liquid:7
-msgid "When you click the button below, the Sofort payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast Sofort greiðsluglugginn."
-
-#: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
-#, fuzzy
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
-
-#: templates/form/sofort_ideal.liquid:23
-msgid "Bank"
-msgstr ""
-
-#: templates/form/sofort_ideal.liquid:30 templates/form/swish.liquid:20
-#: templates/form/trustly.liquid:27 templates/form/trustly_ideal.liquid:27
-#: templates/form/unzer_pay_later_direct_debit.liquid:63
-#: templates/form/unzer_pay_later_invoice.liquid:38
-msgid "Proceed"
-msgstr "Halda áfram"
-
-#: templates/form/sofortppro.liquid:10
-#, fuzzy
-msgid "When you click the button below, the SofortPPRO payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan opnast Sofort greiðsluglugginn."
-
-#: templates/form/swish.liquid:8
-msgid "Mobile number"
-msgstr "Farsímanúmer"
-
-#: templates/form/trustly.liquid:7
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan, opnast Trustly greiðsluglugginn."
-
-#: templates/form/trustly.liquid:20 templates/form/trustly_ideal.liquid:20
-#: templates/form/unzer_pay_later_direct_debit.liquid:18
-#: templates/form/unzer_pay_later_invoice.liquid:18
-msgid "First name"
-msgstr "Fornafn"
-
-#: templates/form/trustly.liquid:24 templates/form/trustly_ideal.liquid:24
-#: templates/form/unzer_pay_later_direct_debit.liquid:22
-#: templates/form/unzer_pay_later_invoice.liquid:22
-msgid "Last name"
-msgstr "Eftirnafn"
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:5
-#: templates/form/unzer_pay_later_invoice.liquid:5
-msgid "This field is required."
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:14
-#: templates/form/unzer_pay_later_invoice.liquid:14
-msgid "Email Address"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:26
-#: templates/form/unzer_pay_later_invoice.liquid:26
-msgid "Date of Birth"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:29
-#: templates/form/unzer_pay_later_invoice.liquid:29
-msgid "The age must be at least 18"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:33
-msgid "Bank account holder"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:44
-msgid "Invalid name format. Only letters are accepted."
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:47
-msgid "Enter full name (e.g. John Smith)"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:51
-msgid "IBAN"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:54
-msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
-msgstr ""
-
-#: templates/form/viabill.liquid:10
-msgid "When you click the button below, the ViaBill payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
-
-#: templates/form/vipps.liquid:10
-#, fuzzy
-msgid "When you click the button below, the Vipps payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
-
-#: templates/form/vippspsp.liquid:6
-#, fuzzy
-msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
-
-#: templates/form/wechatpay.liquid:10
-#, fuzzy
-msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "Þegar þú smellir á hnappinn hér að neðan mun ViaBill greiðsluglugginn opnast."
-
-#: templates/layout.liquid:29
-msgid "Other Payment Methods"
-msgstr "Aðrir greiðslumátar"
-
-#: templates/layout.liquid:34
-msgid "Cards"
-msgstr "Kort"
-
-#: templates/layout.liquid:46
-#, fuzzy
-msgid "You are about to abort the payment. Are you sure?"
-msgstr "Ertu að fara að hætta við greiðslu. Ertu viss?"
-
-#: templates/layout.liquid:47
-msgid "Cancel Payment"
-msgstr "Hætta við greiðslu"
+#: templates/cancelled.liquid:3
+msgid "You have cancelled the payment"
+msgstr "Þú hefur hætt við greiðsluna"
 
 #: templates/order_info.liquid:3
 msgid "Order number"
@@ -393,35 +359,79 @@ msgstr "Þú hefur lokið útborguninni"
 msgid "You have completed the payment"
 msgstr "Þú hefur lokið greiðslunni"
 
-#: templates/waiting.liquid:5
-msgid "Open Swish App"
-msgstr ""
+#: templates/layout.liquid:29
+msgid "Other Payment Methods"
+msgstr "Aðrir greiðslumátar"
 
-#: templates/waiting.liquid:8
-msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr ""
+#: templates/layout.liquid:34
+msgid "Cards"
+msgstr "Kort"
 
-#: templates/waiting.liquid:9
+#: templates/layout.liquid:46
 #, fuzzy
-msgid "You have 3 minutes to complete the payment"
-msgstr "Þú hefur lokið greiðslunni"
+msgid "You are about to abort the payment. Are you sure?"
+msgstr "Ertu að fara að hætta við greiðslu. Ertu viss?"
 
-#: templates/waiting.liquid:11
-msgid "Waiting for authorization"
-msgstr ""
+#: templates/layout.liquid:47
+msgid "Cancel Payment"
+msgstr "Hætta við greiðslu"
 
-#: templates/waiting.liquid:17
-msgid "Please wait..."
-msgstr "Vinsamlegast bíðið..."
+#: templates/deadline.liquid:4
+msgid "Order expired"
+msgstr "Pöntun útrunnin"
 
-#: templates/waiting.liquid:20
+#: templates/deadline.liquid:7
+msgid "You did not finish the purchase within the time frame."
+msgstr "Þú laukst ekki við kaupin innan tímarammans."
+
+#: templates/deadline.liquid:9
+msgid "Click here to continue"
+msgstr "Smelltu hér til að halda áfram"
+
+#: templates/error.liquid:6
+msgid "The order is already paid."
+msgstr "Pöntunin er þegar greidd."
+
+#: templates/error.liquid:8
+msgid "Continue to the shop"
+msgstr "Halda áfram í búðina"
+
+#: templates/error.liquid:10
+msgid "An unknown error happened."
+msgstr "Óþekkt villa kom upp."
+
+#: templates/error.liquid:12
+msgid "Unable to complete payment"
+msgstr "Ekki tókst að ljúka greiðslu"
+
+#: templates/error.liquid:14 templates/error.liquid:16
+msgid "3D Secure authorization failed."
+msgstr "3D Secure auðkenning mistókst."
+
+#: templates/error.liquid:16 templates/error.liquid:18
+msgid "Please try again or select another payment method."
+msgstr "Vinsamlegast reyndu aftur eða veldu aðra greiðsluaðferð."
+
+#: templates/error.liquid:18
+msgid "3D Secure enrollment failed."
+msgstr "3D Secure skráning mistókst."
+
+#: templates/error.liquid:20
+msgid "The payment details have changed since you initiated the payment."
+msgstr "Greiðsluupplýsingarnar hafa breyst frá því að þú byrjaðir á greiðslunni."
+
+#: templates/error.liquid:22
+msgid "Click here to start over"
+msgstr "Smelltu hér til að byrja aftur"
+
+#: templates/error.liquid:33
+msgid "Try again"
+msgstr "Reyndu aftur"
+
+#: templates/footer.liquid:137
 #, fuzzy
-msgid "The process may take some time."
-msgstr "Ferlið getur tekið allt að 5 mínútur."
-
-#: templates/waiting.liquid:21
-msgid "Click here if processing takes a long time"
-msgstr "Smelltu hér ef vinnsla tekur langan tíma"
+msgid "Secure payment with"
+msgstr "Aðrir greiðslumátar"
 
 #~ msgid "The Bitcoin address was copied to your clipboard."
 #~ msgstr "Bitcoin vistfangið var afritað á klemmuspjaldið þitt."

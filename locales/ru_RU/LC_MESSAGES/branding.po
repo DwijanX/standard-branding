@@ -18,119 +18,244 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: templates/cancelled.liquid:3
-msgid "You have cancelled the payment"
-msgstr "Вы отменили платеж"
+#: templates/waiting.liquid:5
+msgid "Open Swish App"
+msgstr "Приложение Open Swish"
 
-#: templates/deadline.liquid:4
-msgid "Order expired"
-msgstr "Срок действия заказа истек"
+#: templates/waiting.liquid:8
+msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
+msgstr "Чтобы завершить платеж, откройте приложение Swish на своем мобильном устройстве и авторизуйте платеж"
 
-#: templates/deadline.liquid:7
-msgid "You did not finish the purchase within the time frame."
-msgstr "Вы не закончили покупку в течение отведенного времени."
-
-#: templates/deadline.liquid:9
-msgid "Click here to continue"
-msgstr "Нажмите сюда, чтобы продолжить"
-
-#: templates/error.liquid:6
-msgid "The order is already paid."
-msgstr "Заказ уже оплачен."
-
-#: templates/error.liquid:8
-msgid "Continue to the shop"
-msgstr "Перейти в магазин"
-
-#: templates/error.liquid:10
-msgid "An unknown error happened."
-msgstr "Произошла неизвестная ошибка."
-
-#: templates/error.liquid:10 templates/error.liquid:14
-#: templates/form/error.liquid:11
-msgid "Please try again."
-msgstr "Повторите попытку."
-
-#: templates/error.liquid:12
-msgid "Unable to complete payment"
-msgstr "Невозможно завершить оплату"
-
-#: templates/error.liquid:14 templates/error.liquid:16
-msgid "3D Secure authorization failed."
-msgstr "Не удалось выполнить авторизацию 3D Secure."
-
-#: templates/error.liquid:16 templates/error.liquid:18
-msgid "Please try again or select another payment method."
-msgstr "Повторите попытку или воспользуйтесь иным способом платежа."
-
-#: templates/error.liquid:18
-msgid "3D Secure enrollment failed."
-msgstr "Ошибка регистрации в 3D Secure."
-
-#: templates/error.liquid:20
-msgid "The payment details have changed since you initiated the payment."
-msgstr "С момента инициирования платежа изменились платежные реквизиты."
-
-#: templates/error.liquid:22
-msgid "Click here to start over"
-msgstr "Нажмите сюда, чтобы начать заново"
-
-#: templates/error.liquid:33
-msgid "Try again"
-msgstr "Повторить попытку"
-
-#: templates/footer.liquid:137
+#: templates/waiting.liquid:9
 #, fuzzy
-msgid "Secure payment with"
-msgstr "Иные способы платежа"
+msgid "You have 3 minutes to complete the payment"
+msgstr "Вы завершили платеж"
 
-#: templates/form/3ds_auth.liquid:4
+#: templates/waiting.liquid:11
+msgid "Waiting for authorization"
+msgstr "Ожидает авторизацию"
+
+#: templates/waiting.liquid:17
+msgid "Please wait..."
+msgstr "Пожалуйста подождите..."
+
+#: templates/waiting.liquid:20
 #, fuzzy
-msgid "Running 3-D Secure checks. Please wait..."
-msgstr "Запуск оплаты 3D Secure. Пожалуйста, подождите..."
+msgid "The process may take some time."
+msgstr "Процесс может занять до 5 минут."
+
+#: templates/waiting.liquid:21
+msgid "Click here if processing takes a long time"
+msgstr "Нажмите сюда, если обработка занимает много времени"
 
 #: templates/form/anydaysplit.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Anyday split payment window will open."
 msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
 
-#: templates/form/anydaysplit.liquid:11 templates/form/bancontact.liquid:11
-#: templates/form/blik.liquid:11 templates/form/klarnapayments.liquid:8
-#: templates/form/mobilepay_online.liquid:7
+#: templates/form/anydaysplit.liquid:11 templates/form/vmp_epayment.liquid:8
+#: templates/form/paypalpayments.liquid:11 templates/form/przelewy24.liquid:12
+#: templates/form/resurs.liquid:21 templates/form/sofort_ideal.liquid:12
+#: templates/form/paysafecard.liquid:11 templates/form/bancontact.liquid:11
+#: templates/form/wechatpay.liquid:11 templates/form/trustly.liquid:8
+#: templates/form/sofortppro.liquid:11 templates/form/vipps.liquid:11
+#: templates/form/vippspsp.liquid:7 templates/form/paypal.liquid:11
+#: templates/form/blik.liquid:11
 #: templates/form/mobilepay_subscriptions.liquid:11
-#: templates/form/paypal.liquid:11 templates/form/paypalpayments.liquid:11
-#: templates/form/paysafecard.liquid:11 templates/form/przelewy24.liquid:12
-#: templates/form/resurs.liquid:21 templates/form/sofort.liquid:8
-#: templates/form/sofort_ideal.liquid:12 templates/form/sofortppro.liquid:11
-#: templates/form/trustly.liquid:8 templates/form/trustly_ideal.liquid:8
-#: templates/form/viabill.liquid:11 templates/form/vipps.liquid:11
-#: templates/form/vippspsp.liquid:7 templates/form/wechatpay.liquid:11
+#: templates/form/mobilepay_online.liquid:7
+#: templates/form/trustly_ideal.liquid:8 templates/form/viabill.liquid:11
+#: templates/form/sofort.liquid:8 templates/form/klarnapayments.liquid:8
 msgid "When finished, you will be redirected back to your receipt."
 msgstr "Когда вы закончите, вас перенаправят обратно к Вашему чеку."
 
-#: templates/form/anydaysplit.liquid:12 templates/form/bancontact.liquid:12
-#: templates/form/blik.liquid:12 templates/form/klarnapayments.liquid:9
-#: templates/form/mobilepay_online.liquid:8
+#: templates/form/anydaysplit.liquid:12 templates/form/vmp_epayment.liquid:9
+#: templates/form/paypalpayments.liquid:12 templates/form/przelewy24.liquid:13
+#: templates/form/resurs.liquid:22 templates/form/sofort_ideal.liquid:13
+#: templates/form/paysafecard.liquid:12 templates/form/bancontact.liquid:12
+#: templates/form/wechatpay.liquid:12 templates/form/trustly.liquid:9
+#: templates/form/sofortppro.liquid:12 templates/form/vipps.liquid:12
+#: templates/form/vippspsp.liquid:8 templates/form/paypal.liquid:12
+#: templates/form/blik.liquid:12
 #: templates/form/mobilepay_subscriptions.liquid:12
-#: templates/form/paypal.liquid:12 templates/form/paypalpayments.liquid:12
-#: templates/form/paysafecard.liquid:12 templates/form/przelewy24.liquid:13
-#: templates/form/resurs.liquid:22 templates/form/sofort.liquid:9
-#: templates/form/sofort_ideal.liquid:13 templates/form/sofortppro.liquid:12
-#: templates/form/trustly.liquid:9 templates/form/trustly_ideal.liquid:9
-#: templates/form/viabill.liquid:12 templates/form/vipps.liquid:12
-#: templates/form/vippspsp.liquid:8 templates/form/wechatpay.liquid:12
+#: templates/form/mobilepay_online.liquid:8
+#: templates/form/trustly_ideal.liquid:9 templates/form/viabill.liquid:12
+#: templates/form/sofort.liquid:9 templates/form/klarnapayments.liquid:9
 msgid "Proceed to payment"
 msgstr "Перейти к оплате"
+
+#: templates/form/vmp_epayment.liquid:7
+#, fuzzy
+msgid "When you click the button below, the Vipps-MobilePay window will open"
+msgstr "При нажатии на кнопку ниже откроется окно платежа Vipps."
+
+#: templates/form/paypalpayments.liquid:10
+#, fuzzy
+msgid "When you click the button below, the PayPalPayments payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
+
+#: templates/form/przelewy24.liquid:11
+#, fuzzy
+msgid "When you click the button below, the Przelewy24 payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
+
+#: templates/form/3ds_auth.liquid:4
+#, fuzzy
+msgid "Running 3-D Secure checks. Please wait..."
+msgstr "Запуск оплаты 3D Secure. Пожалуйста, подождите..."
+
+#: templates/form/resurs.liquid:20
+msgid "When you click the button below, the Resurs payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Ресурс."
+
+#: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
+msgid "When you click the button below, the iDeal payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа  iDeal."
+
+#: templates/form/sofort_ideal.liquid:23
+msgid "Bank"
+msgstr "Банк"
+
+#: templates/form/sofort_ideal.liquid:30
+#: templates/form/unzer_pay_later_direct_debit.liquid:63
+#: templates/form/trustly.liquid:27
+#: templates/form/unzer_pay_later_invoice.liquid:38
+#: templates/form/trustly_ideal.liquid:27 templates/form/swish.liquid:20
+msgid "Proceed"
+msgstr "Далее"
+
+#: templates/form/paysafecard.liquid:10
+msgid "When you click the button below, the paysafecard payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа оплатить безопасно картой."
 
 #: templates/form/bancontact.liquid:10
 #, fuzzy
 msgid "When you click the button below, the Bancontact payment window will open."
 msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
 
+#: templates/form/unzer_pay_later_direct_debit.liquid:5
+#: templates/form/unzer_pay_later_invoice.liquid:5
+msgid "This field is required."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:14
+#: templates/form/unzer_pay_later_invoice.liquid:14
+msgid "Email Address"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:18
+#: templates/form/trustly.liquid:20
+#: templates/form/unzer_pay_later_invoice.liquid:18
+#: templates/form/trustly_ideal.liquid:20
+msgid "First name"
+msgstr "Имя"
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:22
+#: templates/form/trustly.liquid:24
+#: templates/form/unzer_pay_later_invoice.liquid:22
+#: templates/form/trustly_ideal.liquid:24
+msgid "Last name"
+msgstr "Фамилия"
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:26
+#: templates/form/unzer_pay_later_invoice.liquid:26
+msgid "Date of Birth"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:29
+#: templates/form/unzer_pay_later_invoice.liquid:29
+msgid "The age must be at least 18"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:33
+msgid "Bank account holder"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:44
+msgid "Invalid name format. Only letters are accepted."
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:47
+msgid "Enter full name (e.g. John Smith)"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:51
+msgid "IBAN"
+msgstr ""
+
+#: templates/form/unzer_pay_later_direct_debit.liquid:54
+msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
+msgstr ""
+
+#: templates/form/wechatpay.liquid:10
+#, fuzzy
+msgid "When you click the button below, the WeChatPay payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа  iDeal."
+
+#: templates/form/trustly.liquid:7
+msgid "When you click the button below, the Trustly payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
+
+#: templates/form/sofortppro.liquid:10
+#, fuzzy
+msgid "When you click the button below, the SofortPPRO payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Sofort."
+
+#: templates/form/vipps.liquid:10
+msgid "When you click the button below, the Vipps payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Vipps."
+
+#: templates/form/vippspsp.liquid:6
+#, fuzzy
+msgid "When you click the button below, the Vipps PSP window will open"
+msgstr "При нажатии на кнопку ниже откроется окно платежа Vipps."
+
+#: templates/form/paypal.liquid:10
+msgid "When you click the button below, the PayPal payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
+
 #: templates/form/blik.liquid:10
 #, fuzzy
 msgid "When you click the button below, the BLIK payment window will open."
 msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
+
+#: templates/form/mobilepay_subscriptions.liquid:10
+#, fuzzy
+msgid "When you click the button below, the MobilePay Subscriptions window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа MobilePay."
+
+#: templates/form/mobilepay_online.liquid:6
+#, fuzzy
+msgid "When you click the button below, the MobilePay Online window will open"
+msgstr "При нажатии на кнопку ниже откроется окно платежа MobilePay."
+
+#: templates/form/swish.liquid:8
+msgid "Mobile number"
+msgstr "Номер мобильного телефона"
+
+#: templates/form/viabill.liquid:10
+msgid "When you click the button below, the ViaBill payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа ViaBill."
+
+#: templates/form/sofort.liquid:7
+msgid "When you click the button below, the Sofort payment window will open."
+msgstr "При нажатии на кнопку ниже откроется окно платежа Sofort."
+
+#: templates/form/error.liquid:7
+msgid "An error happened."
+msgstr "Произошла ошибка."
+
+#: templates/form/error.liquid:7 templates/error.liquid:10
+#: templates/error.liquid:14
+msgid "Please try again."
+msgstr "Повторите попытку."
+
+#: templates/form/error.liquid:9
+msgid "You tried to make a live payment on a test transaction."
+msgstr "Вы попытались выполнить реальный платеж по пробной транзакции."
+
+#: templates/form/error.liquid:11
+msgid "You tried to make a test payment on a live transaction."
+msgstr "Вы попытались выполнить пробный платеж по реальной транзакции."
 
 #: templates/form/card.liquid:5
 msgid "Pay with card"
@@ -197,173 +322,14 @@ msgstr "Комиссия за платеж"
 msgid "Fill in card number"
 msgstr "Укажите номер карты"
 
-#: templates/form/error.liquid:11
-msgid "An error happened."
-msgstr "Произошла ошибка."
-
-#: templates/form/error.liquid:13
-msgid "You tried to make a live payment on a test transaction."
-msgstr "Вы попытались выполнить реальный платеж по пробной транзакции."
-
-#: templates/form/error.liquid:15
-msgid "You tried to make a test payment on a live transaction."
-msgstr "Вы попытались выполнить пробный платеж по реальной транзакции."
-
 #: templates/form/klarnapayments.liquid:7
 #, fuzzy
 msgid "When you click the button below, the Klarna payment window will open."
 msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
 
-#: templates/form/mobilepay_online.liquid:6
-#, fuzzy
-msgid "When you click the button below, the MobilePay Online window will open"
-msgstr "При нажатии на кнопку ниже откроется окно платежа MobilePay."
-
-#: templates/form/mobilepay_subscriptions.liquid:10
-#, fuzzy
-msgid "When you click the button below, the MobilePay Subscriptions window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа MobilePay."
-
-#: templates/form/paypal.liquid:10
-msgid "When you click the button below, the PayPal payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
-
-#: templates/form/paypalpayments.liquid:10
-#, fuzzy
-msgid "When you click the button below, the PayPalPayments payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа PayPal."
-
-#: templates/form/paysafecard.liquid:10
-msgid "When you click the button below, the paysafecard payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа оплатить безопасно картой."
-
-#: templates/form/przelewy24.liquid:11
-#, fuzzy
-msgid "When you click the button below, the Przelewy24 payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
-
-#: templates/form/resurs.liquid:20
-msgid "When you click the button below, the Resurs payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Ресурс."
-
-#: templates/form/sofort.liquid:7
-msgid "When you click the button below, the Sofort payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Sofort."
-
-#: templates/form/sofort_ideal.liquid:11 templates/form/trustly_ideal.liquid:7
-msgid "When you click the button below, the iDeal payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа  iDeal."
-
-#: templates/form/sofort_ideal.liquid:23
-msgid "Bank"
-msgstr "Банк"
-
-#: templates/form/sofort_ideal.liquid:30 templates/form/swish.liquid:20
-#: templates/form/trustly.liquid:27 templates/form/trustly_ideal.liquid:27
-#: templates/form/unzer_pay_later_direct_debit.liquid:63
-#: templates/form/unzer_pay_later_invoice.liquid:38
-msgid "Proceed"
-msgstr "Далее"
-
-#: templates/form/sofortppro.liquid:10
-#, fuzzy
-msgid "When you click the button below, the SofortPPRO payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Sofort."
-
-#: templates/form/swish.liquid:8
-msgid "Mobile number"
-msgstr "Номер мобильного телефона"
-
-#: templates/form/trustly.liquid:7
-msgid "When you click the button below, the Trustly payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Trustly."
-
-#: templates/form/trustly.liquid:20 templates/form/trustly_ideal.liquid:20
-#: templates/form/unzer_pay_later_direct_debit.liquid:18
-#: templates/form/unzer_pay_later_invoice.liquid:18
-msgid "First name"
-msgstr "Имя"
-
-#: templates/form/trustly.liquid:24 templates/form/trustly_ideal.liquid:24
-#: templates/form/unzer_pay_later_direct_debit.liquid:22
-#: templates/form/unzer_pay_later_invoice.liquid:22
-msgid "Last name"
-msgstr "Фамилия"
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:5
-#: templates/form/unzer_pay_later_invoice.liquid:5
-msgid "This field is required."
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:14
-#: templates/form/unzer_pay_later_invoice.liquid:14
-msgid "Email Address"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:26
-#: templates/form/unzer_pay_later_invoice.liquid:26
-msgid "Date of Birth"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:29
-#: templates/form/unzer_pay_later_invoice.liquid:29
-msgid "The age must be at least 18"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:33
-msgid "Bank account holder"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:44
-msgid "Invalid name format. Only letters are accepted."
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:47
-msgid "Enter full name (e.g. John Smith)"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:51
-msgid "IBAN"
-msgstr ""
-
-#: templates/form/unzer_pay_later_direct_debit.liquid:54
-msgid "Invalid IBAN format. Enter a valid IBAN (e.g. DE 12 1001 1001 1234 5678 90)"
-msgstr ""
-
-#: templates/form/viabill.liquid:10
-msgid "When you click the button below, the ViaBill payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа ViaBill."
-
-#: templates/form/vipps.liquid:10
-msgid "When you click the button below, the Vipps payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа Vipps."
-
-#: templates/form/vippspsp.liquid:6
-#, fuzzy
-msgid "When you click the button below, the Vipps PSP window will open"
-msgstr "При нажатии на кнопку ниже откроется окно платежа Vipps."
-
-#: templates/form/wechatpay.liquid:10
-#, fuzzy
-msgid "When you click the button below, the WeChatPay payment window will open."
-msgstr "При нажатии на кнопку ниже откроется окно платежа  iDeal."
-
-#: templates/layout.liquid:29
-msgid "Other Payment Methods"
-msgstr "Иные способы платежа"
-
-#: templates/layout.liquid:34
-msgid "Cards"
-msgstr "Карты"
-
-#: templates/layout.liquid:46
-#, fuzzy
-msgid "You are about to abort the payment. Are you sure?"
-msgstr "Вы собираетесь отменить платеж. Вы уверены?"
-
-#: templates/layout.liquid:47
-msgid "Cancel Payment"
-msgstr "Отменить платеж"
+#: templates/cancelled.liquid:3
+msgid "You have cancelled the payment"
+msgstr "Вы отменили платеж"
 
 #: templates/order_info.liquid:3
 msgid "Order number"
@@ -392,35 +358,79 @@ msgstr "Вы завершили выплату"
 msgid "You have completed the payment"
 msgstr "Вы завершили платеж"
 
-#: templates/waiting.liquid:5
-msgid "Open Swish App"
-msgstr "Приложение Open Swish"
+#: templates/layout.liquid:29
+msgid "Other Payment Methods"
+msgstr "Иные способы платежа"
 
-#: templates/waiting.liquid:8
-msgid "To complete the payment, open your Swish App on your mobile device and authorize the payment"
-msgstr "Чтобы завершить платеж, откройте приложение Swish на своем мобильном устройстве и авторизуйте платеж"
+#: templates/layout.liquid:34
+msgid "Cards"
+msgstr "Карты"
 
-#: templates/waiting.liquid:9
+#: templates/layout.liquid:46
 #, fuzzy
-msgid "You have 3 minutes to complete the payment"
-msgstr "Вы завершили платеж"
+msgid "You are about to abort the payment. Are you sure?"
+msgstr "Вы собираетесь отменить платеж. Вы уверены?"
 
-#: templates/waiting.liquid:11
-msgid "Waiting for authorization"
-msgstr "Ожидает авторизацию"
+#: templates/layout.liquid:47
+msgid "Cancel Payment"
+msgstr "Отменить платеж"
 
-#: templates/waiting.liquid:17
-msgid "Please wait..."
-msgstr "Пожалуйста подождите..."
+#: templates/deadline.liquid:4
+msgid "Order expired"
+msgstr "Срок действия заказа истек"
 
-#: templates/waiting.liquid:20
+#: templates/deadline.liquid:7
+msgid "You did not finish the purchase within the time frame."
+msgstr "Вы не закончили покупку в течение отведенного времени."
+
+#: templates/deadline.liquid:9
+msgid "Click here to continue"
+msgstr "Нажмите сюда, чтобы продолжить"
+
+#: templates/error.liquid:6
+msgid "The order is already paid."
+msgstr "Заказ уже оплачен."
+
+#: templates/error.liquid:8
+msgid "Continue to the shop"
+msgstr "Перейти в магазин"
+
+#: templates/error.liquid:10
+msgid "An unknown error happened."
+msgstr "Произошла неизвестная ошибка."
+
+#: templates/error.liquid:12
+msgid "Unable to complete payment"
+msgstr "Невозможно завершить оплату"
+
+#: templates/error.liquid:14 templates/error.liquid:16
+msgid "3D Secure authorization failed."
+msgstr "Не удалось выполнить авторизацию 3D Secure."
+
+#: templates/error.liquid:16 templates/error.liquid:18
+msgid "Please try again or select another payment method."
+msgstr "Повторите попытку или воспользуйтесь иным способом платежа."
+
+#: templates/error.liquid:18
+msgid "3D Secure enrollment failed."
+msgstr "Ошибка регистрации в 3D Secure."
+
+#: templates/error.liquid:20
+msgid "The payment details have changed since you initiated the payment."
+msgstr "С момента инициирования платежа изменились платежные реквизиты."
+
+#: templates/error.liquid:22
+msgid "Click here to start over"
+msgstr "Нажмите сюда, чтобы начать заново"
+
+#: templates/error.liquid:33
+msgid "Try again"
+msgstr "Повторить попытку"
+
+#: templates/footer.liquid:137
 #, fuzzy
-msgid "The process may take some time."
-msgstr "Процесс может занять до 5 минут."
-
-#: templates/waiting.liquid:21
-msgid "Click here if processing takes a long time"
-msgstr "Нажмите сюда, если обработка занимает много времени"
+msgid "Secure payment with"
+msgstr "Иные способы платежа"
 
 #~ msgid "The Bitcoin address was copied to your clipboard."
 #~ msgstr "Адрес Bitcoin скопирован в ваш буфер обмена."
