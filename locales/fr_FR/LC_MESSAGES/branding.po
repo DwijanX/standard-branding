@@ -341,7 +341,7 @@ msgstr "Numéro de commande"
 
 #: templates/order_info.liquid:8
 msgid "Expires in"
-msgstr "Expire le"
+msgstr "Expire dans"
 
 #: templates/success.liquid:4
 msgid "You have completed the payout"
