@@ -324,7 +324,6 @@ msgid "Order number"
 msgstr "Bestellnummer"
 
 #: templates/order_info.liquid:8
-#, fuzzy
 msgid "Expires in"
 msgstr "läuft ab in"
 
